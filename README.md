@@ -7,6 +7,7 @@ An API server writen in Ruby using Rack gem and Active Record gem for manipulati
 
 - Ruby (version 3.0.1 is recommended but should work fine with Ruby 2.x too)
 - PostgreSQL
+- Bundler (version 2.2.20)
 
 ## Setting up and running the server
 **WARNING: Running the server will drop and recreate the tables (`users`, `posts` and `ratings`) each time. You may want to make changes to database.rb before running the server.**
